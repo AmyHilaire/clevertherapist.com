@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.header {
+  background-image: url('/images/topofpage-small.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  padding-top: 0;
+  padding-bottom: 420px;
+}
+
+body {
+  background: #ffffe5;
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  color: #82ca9c;
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, .5);
+}
+  
+h2 {
+  color: #bd8cbf;
+  font-size: 2em;
+  padding: 1em;
+}
+
+p {
+  color: #6dd0f7;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* unvisited link */
+a:link {
+    color: #6dd0f7;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #82ca9c;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #82ca9c;
+}
